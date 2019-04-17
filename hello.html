@@ -4,10 +4,65 @@
 	<title> Hello World! </title>
 </head>
 <body>
-	<h1 style="color:tomato;background:aquamarine"> This is a heading! </h1>
-	<h2> This is a subheading! </h2>
-	<p> This is a paragraph! </p>
-	<img src = "https://usatftw.files.wordpress.com/2017/05/spongebob.jpg?w=1000&h=600&crop=1" width="400"> <br>
-	<a href = "https://en.wikipedia.org/wiki/SpongeBob_SquarePants"> SpongeBob on Wikipedia </a>
+	<div class="intro" style="font-family:Comic Sans MS">
+		<h1 style="color:tomato;background:aquamarine"> This is a heading! </h1>
+		<h2> This is a subheading! </h2>
+		<p> This is a paragraph! </p>
+	</div>
+	<div class="content" style="font-family:Arial">
+		<img src = "https://usatftw.files.wordpress.com/2017/05/spongebob.jpg?w=1000&h=600&crop=1" width="400"> <br>
+		<a href = "https://en.wikipedia.org/wiki/SpongeBob_SquarePants"> SpongeBob on Wikipedia </a>
+		<table border="1">
+			<tr>
+				<th>Name</th>
+				<th>Age?</th>
+				<th>Favorite Sport?</th>
+				<th>Favorite Food?</th>
+			</tr>
+			<tr>
+				<td>Mary</td>
+				<td>16</td>
+				<td>Soccer</td>
+				<td>Pizza</td>
+			</tr>
+			<tr>
+				<td>Joe</td>
+				<td>18</td>
+				<td>Basketball</td>
+				<td>Hot Dogs</td>
+			</tr>
+			<tr>
+				<td>Pat</td>
+				<td>17</td>
+				<td>Tennis</td>
+				<td>French Fries</td>
+			</tr>
+		</table>
+		<ul>
+			<li>Unordered Item 1</li>
+			<li>Unordered Item 2</li>
+		</ul>
+		<ol>
+			<li>Ordered Item 1</li>
+			<li>Ordered Item 2</li>
+		</ol>
+
+		<div id="form" style="font-family:Impact">
+			<form>
+				<input type="text" name="username" placeholder="Username">
+				<input type="password" name="pwd" placeholder="Password">
+				<br>
+				<input type="checkbox" name="activity" value="Drawing">Drawing
+				<input type="checkbox" name="activity" value="Running">Running
+				<input type="checkbox" name="activity" value="Cooking">Cooking
+				<input type="checkbox" name="activity" value="Sleeping">Sleeping
+				<br>
+				<input type="radio" name="status" value="Staff">MEET Staff
+				<input type="radio" name="status" value="Student">MEET Student
+				<br>
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+	</div>
 </body>
 </html>
